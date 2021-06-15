@@ -1,0 +1,97 @@
+body{;
+	background-color: grey;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	overflow: hidden;
+	height: 100vh;
+	
+}
+table{
+	margin: auto;
+	background-color: #000;
+	position: relative;
+	width: 500px;
+	height: 600px;
+	text-align: center;
+	padding: 25px;
+	border-radius: 10px;
+}
+table tr{
+	display: flex;
+	justify-content: center;
+}
+table tr:first-child{
+	width: 95%;
+	
+}
+table tr:first-child td input:hover,
+table tr:first-child td input:focus {
+	pointer-events: none;
+}
+table tr:first-child td{
+	width: 100%;
+
+}
+table tr td {
+	margin: 5px0;
+	display: inline-block;
+}
+input{
+	outline: 0;
+	position: relative;
+	border: 0;
+	top: 0;
+	color: #0d6effd;
+	background-color: #fff;
+	box-shadow: 0 6px 0 #0248b1;
+	border-radius: 4px;
+	width:98px;
+	margin: 5px;
+	font-size: 40px;
+	transition: all 0.2s ease-in-out 0s;
+}
+input:hover,
+input:focus {
+	top: 4px;
+	cursor: pointer;
+	box-shadow: 0 2px 0 #0248b1;
+}
+#display{
+	width: 100%;
+	font-size:60px;
+	text-align: center;
+	background-color: 3fafaeb;
+	height: 100px;
+}
+.operator{
+	color: #fff;
+	background-color: #0d6efd;
+}
+.clear{
+	color: #fff;
+	background-color: #dc3545;
+}
+input.operator,
+input.clear{
+	box-shadow: 0 6px 0 #fff;
+}
+input.operator:hover,
+input.operator:focus,
+input.clear:hover,
+input.clear:focus {
+	box-shadow: 0 6px 0 #fff;
+}
+p{
+	color:#fff;
+	font-family: calibri;
+	font-size: 25px;
+	bottom: 10px;
+	margin: 5px ;
+	letter-spacing: 3px;
+	
+}
+	
+	
+	
+	
